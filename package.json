@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "highlight.js": "^11.5.1",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -21,6 +23,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-vue": "^8.0.3",
-    "eslint-plugin-vuejs-accessibility": "^1.1.0"
+    "eslint-plugin-vuejs-accessibility": "^1.1.0",
+    "vue-markdown-loader": "^2.5.0"
   }
 }
