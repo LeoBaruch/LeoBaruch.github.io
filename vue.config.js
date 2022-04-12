@@ -5,7 +5,8 @@ module.exports = defineConfig({
   lintOnSave: false,
   // 解决md 文件build报错
   parallel: false,
-  publicPath: '/dist',
+  publicPath: '/blog',
+  outputDir: 'blog',
   configureWebpack: (config) => {
     // eslint-disable-next-line no-param-reassign
     config.devtool = 'source-map';
