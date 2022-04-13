@@ -89,4 +89,55 @@ function mergeSort(arr: Comparable[]) {
 空间复杂度为: O(n)。
 
 
+### 快速排序
+
+快速排序的基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据比另一部分的所有数据要小，再按这种方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，使整个数据变成有序序列。
+
+
+```ts
+
+  function quickSort(arr: Comparable[]) {
+    sort(arr, 0, arr.lenght - 1);
+
+    function sort(array: Comparable[], lo, hi) {
+      if(hi <= lo) return;
+
+      let j = partition(array, lo, hi); // 切分
+
+      sort(array, lo, j - 1);
+      sort(array, j + 1, hi);
+    }
+
+    function partition(array: Comparable[], lo , hi) {
+      let i = lo; let j = hi + 1;
+
+      const v = array[lo];
+
+      while(true) {
+        while(less(array[++i], v)) if(i == hi) break;
+        while(less(v, arry[--j])) if(j == lo) break;
+
+        if(j <= i ) break;
+        exch(array, i, j);
+      }
+
+      exch(array, lo, j);
+
+      return j;
+
+    }
+  }
+
+```
+
+快速排序的平均时间复杂度是 O(nlogn), 但是快速排序在最坏情况下的时间复杂度和冒泡排序一样，是 O(n2) **(即已经排序好的数组))** , 所以开始可以先打乱数组的顺序保持随机性.而且对于小数组,其实快速排序比插入排序慢;所以可以混合使用;
+
+快速排序只是使用数组原本的空间进行排序; 
+
+快速排序是一个不稳定的算法，在经过排序之后，可能会对相同值的元素的相对位置造成改变。
+
+快速排序基本上被认为是相同数量级的所有排序算法中，平均性能最好的。
+
+
+
 
