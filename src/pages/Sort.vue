@@ -9,7 +9,7 @@ import SortMd from '../md/sort.md';
 import 'highlight.js/styles/github.css';
 
 export default {
-  /* eslint-disable */
+  /* eslint-disable-next-line */
   name: 'Sort',
   components: {
     SortMd,

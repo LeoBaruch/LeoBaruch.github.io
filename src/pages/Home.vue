@@ -4,6 +4,9 @@
       <li>
         <router-link :to="'/sort'">排序</router-link>
       </li>
+      <li>
+        <router-link :to="'/priority-queue'">优先队列</router-link>
+      </li>
     </ul>
 </template>
 <script>
