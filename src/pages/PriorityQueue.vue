@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import PriorityQueueMd from '../md/PriorityQueue.md';
+import PriorityQueueMd from '../md/priorityQueue.md';
 
 export default {
   name: 'PriorityQueue',

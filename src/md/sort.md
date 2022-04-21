@@ -160,7 +160,7 @@ public static void sort(Comparable[] a)
 
 如下图:
 
-![堆排序]('../assets/堆排序.png')
+![堆排序]('/assets/堆排序.png')
 
 
 

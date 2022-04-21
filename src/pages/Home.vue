@@ -7,6 +7,9 @@
       <li>
         <router-link :to="'/priority-queue'">优先队列</router-link>
       </li>
+      <li>
+        <router-link :to="'/bst'">二叉搜索树</router-link>
+      </li>
     </ul>
 </template>
 <script>
