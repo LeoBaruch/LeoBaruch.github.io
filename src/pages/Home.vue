@@ -13,6 +13,9 @@
       <li>
         <router-link :to="'/2-3tree'">2-3树</router-link>
       </li>
+      <li>
+        <router-link :to="'/redBlackBST'">红黑树</router-link>
+      </li>
     </ul>
 </template>
 <script>

@@ -1,16 +1,16 @@
 <template>
   <div class="markdown-body">
-    <SortMd />
+    <RedBlackBSTMd />
   </div>
 </template>
 
 <script>
-import SortMd from '../md/sort.md';
+import RedBlackBSTMd from '../md/redBlackBST.md';
 import 'highlight.js/styles/github.css';
 
 export default {
   components: {
-    SortMd,
+    RedBlackBSTMd,
   },
 };
 </script>
