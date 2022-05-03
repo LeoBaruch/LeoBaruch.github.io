@@ -8,7 +8,9 @@ subtitle: ''
 description: 'blog frontend 博客 前端 react webpack nodejs 算法'
 keywords:
 author: Leo
-language: zh-CN
+language: 
+  - zh-CN
+  - en-US
 timezone: Asia/Shanghai
 
 # URL

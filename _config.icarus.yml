@@ -54,7 +54,7 @@ head:
         site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: Leo
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: 
@@ -160,18 +160,18 @@ search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqus
+# comment:
+#     type: disqus
     # Disqus shortname
-    shortname: ''
+    # shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
     # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
+    # -
+    #     type: afdian
+    #     # URL to the "Afdian.net" personal page
+    #     url: ''
     # Alipay donate button configurations
     -
         type: alipay
@@ -183,17 +183,17 @@ donates:
         # URL to the "Buy me a coffee" page
         url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+    # -
+    #     type: patreon
+    #     # URL to the Patreon page
+    #     url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+    # -
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
@@ -201,10 +201,10 @@ donates:
         qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
+# share:
+#     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    # install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -245,7 +245,7 @@ widgets:
                 url: https://github.com/LeoBaruch
             Facebook:
                 icon: fab fa-facebook
-                url: https://facebook.com
+                url:  https://www.facebook.com/xiaolong.ge.520/
             Twitter:
                 icon: fab fa-twitter
                 url: https://twitter.com
