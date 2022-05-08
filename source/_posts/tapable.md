@@ -1,11 +1,9 @@
 ---
 title: tapable
 tags: 前端工程化
-categories:
+categories: 
   - webpack
-date: 2022-05-08 21:06:15
 ---
-
 
 在阅读webpack的源码过程中,发现webpack编译的两个核心对象**Compiler**和**Compilation**都是继承自tapable, :
 
@@ -88,6 +86,11 @@ Tapable 可以按照异步/同步执行分类的同时也可以按照执行机�
 
 
 [demo地址](https://github.com/LeoBaruch/webpack-collection/blob/main/tapable/demo/index.js)
+
+### 参考资料
+- [https://github.com/webpack/tapable](https://github.com/webpack/tapable)
+- [https://juejin.cn/post/7040982789650382855#heading-3](https://juejin.cn/post/7040982789650382855#heading-3)
+
 
 
 
