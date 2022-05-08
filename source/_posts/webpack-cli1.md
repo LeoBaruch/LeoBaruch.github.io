@@ -10,6 +10,7 @@ categories:
 
 - webpack@4.46.0
 
+<!--more-->
 ## webpack 命令
 
 当我们在项目中的package.json中的字段“scripts”对象配置属性: "build": "webpack entry.js bundle.js" . 然后npm run build会发生什么呢?
