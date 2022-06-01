@@ -29,5 +29,6 @@ categories:
 - VPN:
   - clashX
 - IINA: 视频播放器
+- Karabiner-Elements: mac键位修改神器
 
  
