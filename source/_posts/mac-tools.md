@@ -24,11 +24,13 @@ categories:
 ### 效率
 
 - alfred4 
-- Bartender: Menubar 菜单栏管理小助手
+- Bartender4: Menubar 菜单栏管理小助手
 - macdown: markdown
 - VPN:
   - clashX
 - IINA: 视频播放器
 - Karabiner-Elements: mac键位修改神器
+- moom 窗口整理、排列、缩放工具
+- Manico 应用启动和切换工具
 
  
