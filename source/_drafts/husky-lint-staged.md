@@ -3,7 +3,6 @@ title: husky+lint-staged
 tags: 前端工程化
 ---
 
-<!--more-->
 
 ## 简介
 - husky:
@@ -13,6 +12,8 @@ tags: 前端工程化
   - 由于钩子可以在git commit中触发，所以我们可以在提交到暂缓区时，做一些lint 检查、单元测试、代码美化等操作
 
 - lint-staged: 一个仅仅过滤出 Git 代码暂存区文件(被 git add 的文件)的工具
+
+<!--more-->
 
 ## 安装与使用
 
