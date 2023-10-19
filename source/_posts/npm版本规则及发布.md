@@ -1,7 +1,10 @@
 ---
 title: npm版本规则及发布
+date: 2023-10-19 23:13:39
 tags:
+categories:
 ---
+
 
 ## 版本号规则
 从日常的开发中我们可以看到，npm 包的版本号的格式都是 X.Y.Z。这个格式其实是由 Gravatars 创办者兼 GitHub 共同创办者 Tom Preston-Werner 所建立。由 GitHub 起草的统一的版本号表示规则，称为 Semantic Versioning(语义化版本表示)
