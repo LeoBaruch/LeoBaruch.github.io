@@ -32,21 +32,34 @@ hexo new [layout] <title>
 ```
 // 发布新文章(省略布局)
 pnpm hexo new new-post 
-
-// 发布新文章 
+// 或者 发布新文章 
 pnpm hexo new post new-post 
 
-// 新草稿
+// 新建草稿
 pnpm hexo new draft new-drafted-post (部署不展示, 需要publish部署才会展示)
 
 ```
 
-发布
+部署
 
 ```
+// 此时 new-post展示, new-drafted-post不展示
 npm run deploy
 
 ```
+
+将草稿发布到post, 并部署
+
+```
+
+pnpm hexo publish draft new-drafted-post
+npm run deploy
+// 此时 new-drafted-post展示
+
+```
+
+
+
 
 
 
